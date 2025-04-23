@@ -57,7 +57,7 @@
   $result: (100% / $grid-columns) * $index;
 
   @if $index != 0 {
-    .#{$pre}-grid__item--s-#{$index}) {
+    .#{$pre}-grid__item--s-#{$index} {
       width: $result;
     }
   }
